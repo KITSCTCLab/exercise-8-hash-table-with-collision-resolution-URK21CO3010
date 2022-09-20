@@ -3,7 +3,7 @@ import re
 def display_hash(hashtable) -> None:
 	# Write your code here
 	for index in range(len(hashtable)):
-		print(index, end = '')
+		print(index, end = ' ')
 		for item in hashtable[index]:
 			print("-->",item, end = '')
 		print()
